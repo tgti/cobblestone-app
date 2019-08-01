@@ -1,5 +1,7 @@
 {
   "name": "cobblestone",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

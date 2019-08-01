@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>
+            Cobblestone Auto Spa
+        </ion-title>
+        <ion-buttons slot="primary">
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <!-- fix router links -->
+    <ion-card [routerLink]="card.link_id" class="welcome-card" *ngFor="let card of cards">
+        <img [src]=card.image [alt]=card.title />
+        <ion-card-content>
+            <p>{{card.title}}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

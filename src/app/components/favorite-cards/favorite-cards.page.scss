@@ -1,0 +1,16 @@
+.favorite-tab-no-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    .favorite-image {
+        margin-bottom: 2rem;
+    }
+    .favorite-blurb {
+        max-width: 280px;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 14px;
+    }
+}

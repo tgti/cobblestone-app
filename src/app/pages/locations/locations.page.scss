@@ -1,0 +1,16 @@
+.locations-card {
+    &--title,
+    &--subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &--title {
+        font-size: 15px;
+    }
+    &--subtitle {
+        font-size: 12px;
+    }
+    ion-card-content {
+        padding: 8px 9px;
+    }
+}
